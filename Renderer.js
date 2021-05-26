@@ -18,7 +18,7 @@ class Renderer {
     putUser() {
         this.user_container.append(`
         <img src=${m.data.users.mainuser.picture}
-          id="profile-pic" alt="" srcset="">
+          id="rofile-pic" alt="" srcset="">
              <div class="user-infoe">
              <h4>${m.data.users.mainuser.name}</h4>
             <h5>${m.data.users.mainuser.state} , ${m.data.users.mainuser.city}</h5>
